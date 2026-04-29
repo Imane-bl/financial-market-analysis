@@ -202,7 +202,6 @@ python src/risk_analysis.py && python src/visualization.py
 
 
 [![LinkedIn]()](https://linkedin.com/in/bellaghma-imene-74b081294)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](bellaghma.imane@gmail.com)
 
 ---
 
