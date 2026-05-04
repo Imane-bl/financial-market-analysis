@@ -1,5 +1,7 @@
 # 📊 Financial Market Analytics
-
+---
+>  [Cliquez ici pour voir direct le Dashboard interactif](https://financial-market-analysis-hhw3etpxsawaeqfjhxbmp9.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://financial-market-analysis-hhw3etpxsawaeqfjhxbmp9.streamlit.app/)
+---
 <p align="center">
   <img src="outputs/figures/dashboard_executif.png" alt="Dashboard" width="100%"/>
 </p>
@@ -13,11 +15,7 @@
 </p>
 
 ---
-> **🚀 Live Demo : [Cliquez ici pour tester le Dashboard interactif](https://financial-market-analysis-hhw3etpxsawaeqfjhxbmp9.streamlit.app/)**
->
-> [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ton-lien-streamlit-ici.app)
 
-*Note : Explorez les simulations Monte Carlo et l'optimisation de Markowitz en temps réel.*
 ---
 
 ##  Problématique
