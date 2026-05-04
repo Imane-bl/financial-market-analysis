@@ -13,6 +13,12 @@
 </p>
 
 ---
+> **🚀 Live Demo : [Cliquez ici pour tester le Dashboard interactif](https://financial-market-analysis-hhw3etpxsawaeqfjhxbmp9.streamlit.app/)**
+>
+> [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ton-lien-streamlit-ici.app)
+
+*Note : Explorez les simulations Monte Carlo et l'optimisation de Markowitz en temps réel.*
+---
 
 ##  Problématique
 
@@ -86,21 +92,22 @@ Répartition Max Sharpe
 
 ```
 financial-market-analysis/
+
 │
+├── app.py                # Dashboard Streamlit interactif
 ├── src/
-│   ├── data_loader.py        # Téléchargement via yfinance
-│   ├── preprocessing.py      # Nettoyage et calcul des rendements
-│   ├── indicators.py         # RSI, MACD, Bollinger, moyennes mobiles
-│   ├── risk_analysis.py      # VaR, CVaR, Sharpe, Markowitz, Monte Carlo
-│   └── visualization.py      # 14 graphiques pro
+│   ├── data_loader.py    # Téléchargement via yfinance
+│   ├── preprocessing.py  # Nettoyage et calcul des rendements
+│   ├── indicators.py     # RSI, MACD, Bollinger, moyennes mobiles
+│   ├── risk_analysis.py  # VaR, CVaR, Sharpe, Markowitz, Monte Carlo
+│   └── visualization.py  # 14 graphiques pro
 │
 ├── data/
-│   ├── raw/                  # Données brutes yfinance
-│   ├── processed/            # Données nettoyées
-│   ├── indicators/           # Données + indicateurs techniques
-│   └── risk/                 # Métriques de risque et optimisation
+│   ├── raw/              # Données brutes yfinance
+│   ├── processed/        # Données nettoyées
+│   └── risk/             # Métriques de risque et optimisation
 │
-├── outputs/figures/          # 14 graphiques générés automatiquement
+├── outputs/figures/      # 14 graphiques générés automatiquement
 ├── requirements.txt
 └── README.md
 ```
@@ -167,29 +174,30 @@ financial-market-analysis/
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 | Catégorie | Outils |
 |---|---|
-| Données marché | `yfinance` · `pandas` |
-| Calcul quantitatif | `NumPy` · `SciPy` |
-| Optimisation | `scipy.optimize` (SLSQP) |
-| Visualisation | `matplotlib` · `seaborn` |
-| Environnement | Python 3.11 · Git |
+| **Interface Web** | `Streamlit` (Déploiement Cloud) |
+| **Données marché** | `yfinance` · `pandas` |
+| **Calcul quantitatif** | `NumPy` · `SciPy` |
+| **Optimisation** | `scipy.optimize` (SLSQP) |
+| **Visualisation** | `matplotlib` · `seaborn` · `Plotly` (interactif) |
+| **Environnement** | Python 3.11 · Git |
 
 ---
-
-##  Lancement en 3 commandes
+##  Installation & Lancement
 
 ```bash
-# Installer les dépendances
+# 1. Cloner le projet
+git clone [https://github.com/votre-username/votre-repo.git](https://github.com/votre-username/votre-repo.git)
+
+# 2. Installer les dépendances
 pip install -r requirements.txt
 
-# Lancer l'analyse complète
-python src/data_loader.py && python src/preprocessing.py && python src/indicators.py
+# 3. Lancer le Dashboard interactif
+streamlit run app.py
 
-# Générer les résultats et graphiques
-python src/risk_analysis.py && python src/visualization.py
 ```
 
 ---
