@@ -206,8 +206,7 @@ streamlit run app.py
 
 **Bellaghma Imene**  
 
-
-[![LinkedIn]()](https://linkedin.com/in/bellaghma-imene-74b081294)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Imene%20Bellaghma-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/bellaghma-imene-74b081294)
 
 ---
 
